@@ -101,3 +101,12 @@ setInterval(function(){
 
 // next는 함수가 아니라 메서드라는 점에서 계속해서 변화하는 값을 반환해도 
 // 이 함수는 순수함수라고 할 수 있다.
+
+// var i;
+// for(i = 5; i >=0; i--){
+//     setTimeout(function(){
+//         console.log(i === 0 ? "go!" : i);
+//     }, (5 -i)*1000);
+// }
+
+
